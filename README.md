@@ -3,6 +3,8 @@
 Sometimes I would like to build on binary only as the source code may contains
 a lot of other similar code (for example a lot of driver share the same API).
 
+This document describe how to reproduce the [issue](https://github.com/fcamel/gj/issues/11)
+
 ## compile a.c 
 
 ```
