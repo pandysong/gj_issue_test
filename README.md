@@ -1,7 +1,11 @@
-# How to reproduce the problem
+Following project create symbol index from binary and/or source code:
 
-Sometimes I would like to build on binary only as the source code may contains
-a lot of other similar code (for example a lot of driver share the same API).
+https://github.com/fcamel/gj/issues/11
+
+it works great, except that sometime I need the index on only binary in case for
+example a lot of drivers share the same API in a same code base.
+
+# How to reproduce the problem
 
 This document describe how to reproduce the [issue](https://github.com/fcamel/gj/issues/11)
 
