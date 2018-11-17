@@ -1,0 +1,13 @@
+config = {
+    # Each line is an ELF binary to be indexed.
+    # Example:
+    #   ("out/debug/myprog", "out/debug")
+    #
+    #   Index out/debug/myprog and dynamic libraries used by myprog with sub-path "out/debug".
+    #   Index no extra dynamic libraries if the second argument is an empty string.
+    "binaries": [
+       ("a.out", "")
+    ],
+    # FROM=TO. E.g., "../../=" removes the prefix "../../".
+    "path_substitution": "",
+}
