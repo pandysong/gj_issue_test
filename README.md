@@ -5,6 +5,13 @@ a lot of other similar code (for example a lot of driver share the same API).
 
 This document describe how to reproduce the [issue](https://github.com/fcamel/gj/issues/11)
 
+## clone the repo
+
+```
+git clone https://github.com/pandysong/gj_issue_test.git
+cd gj_issue_test
+```
+
 ## compile a.c 
 
 ```
